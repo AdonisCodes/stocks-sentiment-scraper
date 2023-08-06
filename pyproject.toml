@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "stocks-sentiment-scraper"
+version = "0.1.0"
+description = ""
+authors = ["Simon Ferns <delaywasntaken@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "stocks_sentiment_scraper" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+bs4 = "^0.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
